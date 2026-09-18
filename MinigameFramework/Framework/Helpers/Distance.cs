@@ -5,7 +5,7 @@ namespace MinigameFramework.Helpers
     /// <summary>
     /// Various distance formulas.
     /// </summary>
-    internal static class Distance
+    public static class Distance
     {
         /// <summary>
         /// Returns <see href="https://en.wikipedia.org/wiki/Taxicab_geometry">manhattan distance</see> between two <see cref="Vector2"/>

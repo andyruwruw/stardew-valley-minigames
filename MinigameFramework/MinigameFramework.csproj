@@ -11,7 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Framework\Entities\" />
     <Folder Include="Framework\Physics\" />
     <Folder Include="Framework\Scenes\" />
   </ItemGroup>

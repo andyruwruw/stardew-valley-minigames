@@ -5,7 +5,7 @@ namespace MinigameFramework.DataStructures.Attributes
     /// <summary>
     /// Polar coordinates for orientation of <see cref="Ball"/>.
     /// </summary>
-    internal class Orientation
+    public class Orientation
     {
         /// <summary>
         /// The circumference of the <see cref="Ball"/>.

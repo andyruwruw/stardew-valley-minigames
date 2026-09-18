@@ -7,7 +7,7 @@ namespace MinigameFramework.DataStructures.Primitives
     /// Simple rectangle class
     /// </summary>
     /// <remarks>It should be noted that this rectangle class inverts the Y-axis, meaning higher Y values are associated with being lower on the screen.</remarks>
-    internal class Rectangle : IRange
+    public class Rectangle : IRange
     {
         /// <summary>
         /// <see cref="Vector2"/> of top left of the <see cref="Rectangle"/>

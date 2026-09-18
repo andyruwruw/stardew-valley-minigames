@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace MinigameFramework.Render
 {
-    internal interface IFilter
+    public interface IFilter
     {
         Color ExecuteColor(Color color);
 

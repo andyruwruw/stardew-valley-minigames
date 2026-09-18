@@ -4,7 +4,7 @@ using MinigameFramework.Utilities;
 
 namespace MinigameFramework.Render
 {
-    internal abstract class Filter : IFilter
+    public abstract class Filter : IFilter
     {
         protected string _key;
 

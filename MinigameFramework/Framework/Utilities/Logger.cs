@@ -6,7 +6,7 @@ namespace MinigameFramework.Utilities
     /// <summary>
     /// Static method of printing to <see cref="IMonitor"/>
     /// </summary>
-    internal class Logger
+    public class Logger
     {
         /// <summary>
         /// Static reference to <see cref="IMonitor"/>

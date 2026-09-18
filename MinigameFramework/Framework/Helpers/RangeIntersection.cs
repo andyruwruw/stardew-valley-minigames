@@ -6,7 +6,7 @@ namespace MinigameFramework.Helpers
     /// <summary>
     /// Classifies two <see cref="IRange"/> and checks for intersection
     /// </summary>
-    internal static class RangeIntersection
+    public static class RangeIntersection
     {
         /// <summary>
         /// Checks if two <see cref="IRange"/> intersect

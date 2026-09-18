@@ -5,7 +5,7 @@ namespace MinigameFramework.DataStructures.Attributes
     /// <summary>
     /// Maintains position, velocity and acceleration of an object.
     /// </summary>
-    internal class Momentum
+    public class Momentum
     {
         /// <summary>
         /// Maximum acceleration <see cref="Momentum"/> can speed up.
@@ -21,6 +21,11 @@ namespace MinigameFramework.DataStructures.Attributes
         /// Acceleration of <see cref="Momentum"/> as <see cref="Vector2"/>.
         /// </summary>
         private Vector2 _acceleration;
+
+        /// <summary>
+        /// Friction of <see cref="Momentum"/> as <see cref="Vector2"/>.
+        /// </summary>
+        private float _friction;
 
         /// <summary>
         /// Velocity of <see cref="Momentum"/> as <see cref="Vector2"/>.
@@ -43,6 +48,7 @@ namespace MinigameFramework.DataStructures.Attributes
         /// <param name="position">Position of <see cref="Momentum"/> as <see cref="Vector2"/></param>
         /// <param name="velocity">Velocity of <see cref="Momentum"/> as <see cref="Vector2"/></param>
         /// <param name="acceleration">Acceleration of <see cref="Momentum"/> as <see cref="Vector2"/></param>
+        /// <param name="friction">Friction of <see cref="Momentum"/> as <see cref="Vector2"/></param>
         /// <param name="mass">Mass of the <see cref="Momentum"/></param>
         /// <param name="maximumVelocity">Maximum velocity <see cref="Momentum"/> can travel</param>
         /// <param name="maximumAcceleration">Maximum acceleration <see cref="Momentum"/> can speed up</param>
@@ -50,6 +56,7 @@ namespace MinigameFramework.DataStructures.Attributes
             Vector2 position,
             Vector2 velocity,
             Vector2 acceleration,
+            float friction,
             float mass,
             float maximumVelocity = float.MaxValue,
             float maximumAcceleration = float.MaxValue
@@ -58,6 +65,7 @@ namespace MinigameFramework.DataStructures.Attributes
             this._position = position;
             this._velocity = velocity;
             this._acceleration = acceleration;
+            this._friction = friction;
             this._mass = mass;
             this._maximumVelocity = maximumVelocity;
             this._maximumAcceleration = maximumAcceleration;
@@ -75,6 +83,7 @@ namespace MinigameFramework.DataStructures.Attributes
         public Momentum(
             Vector2 position,
             Vector2 velocity,
+            float friction,
             float mass,
             float maximumVelocity = float.MaxValue,
             float maximumAcceleration = float.MaxValue

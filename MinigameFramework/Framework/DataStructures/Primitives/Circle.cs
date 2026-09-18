@@ -6,7 +6,7 @@ namespace MinigameFramework.DataStructures.Primitives
     /// <summary>
     /// Simple circle class
     /// </summary>
-    internal class Circle : IRange
+    public class Circle : IRange
     {
         /// <summary>
         /// <see cref="Vector2"/> of the center of the <see cref="Circle"/>

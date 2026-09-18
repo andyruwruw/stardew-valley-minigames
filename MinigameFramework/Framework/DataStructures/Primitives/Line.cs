@@ -6,7 +6,7 @@ namespace MinigameFramework.DataStructures.Primitives
     /// <summary>
     /// Simple line class
     /// </summary>
-    internal class Line : IRange
+    public class Line : IRange
     {
         /// <summary>
         /// <see cref="Vector2"/> of the end of the line

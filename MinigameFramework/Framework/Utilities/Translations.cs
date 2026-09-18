@@ -5,7 +5,7 @@ namespace MinigameFramework.Utilities
     /// <summary>
     /// Retrieves translated strings from <see href="https://stardewvalleywiki.com/Modding:Translations">i18n folder</see>.
     /// </summary>
-    internal class Translations
+    public class Translations
     {
         /// <inheritdoc cref="ITranslationHelper"/>
         public static ITranslationHelper Helper;

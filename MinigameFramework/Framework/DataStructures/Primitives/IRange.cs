@@ -5,7 +5,7 @@ namespace MinigameFramework.DataStructures.Primitives
     /// <summary>
     /// A 2D area.
     /// </summary>
-    internal interface IRange
+    public interface IRange
     {
         /// <summary>
         /// Whether a point lies within the <see cref="IRange"/>

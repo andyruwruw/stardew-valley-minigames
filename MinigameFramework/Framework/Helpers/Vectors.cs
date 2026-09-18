@@ -5,7 +5,7 @@ namespace MinigameFramework.Helpers
     /// <summary>
     /// Various vector math.
     /// </summary>
-    internal class Vectors
+    public class Vectors
     {
         /// <summary>
         /// Returns the magnitude of a <see cref="Vector"/>
